@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Introduction BDD avec PHP</title>
+<meta charset="utf-8">
+<style type="text/css">
+body {
+background-color: #eeeeee;
+}
+h1 {
+text-align: center;
+color: white;
+background-color: black;
+padding: 20px;
+width: 650px;
+margin: 0 auto 20px auto;
+border-radius: 5px;
+}
+table {
+width: 680px;
+margin: auto;
+background-color: #9999EE;
+}
+</style>
+</head>
+<body>
+<h1>La famille Dupond &nbsp;<img src="famille.jpg" height="80" width="120"></h1>
+<form action="famille.php" method="post">
+<table border="1">
+<tr>
+<td>Votre selection:</td>
+<td>
+ <input type="radio" name="choix" value="1">Afficher tous les membres de la famille<br>
+ <input type="radio" name="choix" value="2">Afficher les membres, classer par prénom<br>
+ <input type="radio" name="choix" value="3">Afficher les membres, classer par prénom
+ decroissant<br>
+ <input type="radio" name="choix" value="4">Afficher les membres, nés avant 1960<br>
+ <input type="radio" name="choix" value="5">Afficher les membres dont le prénom commence
+ par G<br>
+<input type="radio" name="choix" value="6">Afficher les membres dont le prénom contient
+ MA<br>
+ <input type="radio" name="choix" value="7">Ajouter un nouveau membre de la famille<br>
+ <input type="radio" name="choix" value="8">Supprimer un membre de la famille<br>
+ <input type="radio" name="choix" value="7">Ajouter un nouveau membre de la famille
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+ <input type="submit" name="button1" value="Soumettre">
+</td>
+</tr>
+</table>
+</form>
+<div id="add">
+ <table border="1">
+ <tr>
+<td>Nom</td>
+<td><input type="text" name="nom1" size="40"> </td>
+ </tr>
+ <tr>
+<td>Prénom</td>
+<td><input type="text" name="prenom1" size="40"> </td>
+ </tr>
+ <tr>
+<td>Statut</td>
+<td><input type="text" name="statut1" size="40"> </td>
+ </tr>
+ <tr>
+<td>Date de naissance</td>
+<td><input type="Date" name="naissance1" size="40"> </td>
+ </tr>
+ <tr>
+<td>Photo</td>
+<td><input type="text" name="photo1" size="40"> </td>
+ </tr>
+ </table>
+</body>
+</html>
